@@ -73,6 +73,21 @@ To open the frontend app:
 
 `firebase.json` is configured for SPA routing so all routes resolve through `index.html`.
 
+## New Firebase demo webapp
+
+A new standalone Firebase webapp is available at:
+
+- `webapp/index.html`
+- `webapp/app.js`
+- `webapp/styles.css`
+
+It includes:
+
+- Google sign-in using Firebase Auth
+- Firestore-backed Courses and Current Affairs pages
+- Banner load on home page
+- Hash-based routing (`#/`, `#/courses`, `#/current-affairs`)
+
 ## Scripts
 
 At repository root:
