@@ -51,7 +51,7 @@ This repository was originally exported from Caffeine with ICP/Canister based ba
    ```
 6. Build and deploy hosting.
    ```bash
-   pnpm --filter odigyan-frontend build
+   pnpm --filter @caffeine/template-frontend build
    firebase deploy --only hosting
    ```
 
@@ -63,8 +63,6 @@ At repository root:
 - `pnpm build`
 - `pnpm deploy:hosting`
 - `pnpm deploy:functions`
-
-These scripts assume the Firebase-first setup and the `odigyan-frontend` workspace package name.
 
 ## Migration Notes
 
