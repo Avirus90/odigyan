@@ -141,7 +141,7 @@ export default function Login() {
                 Welcome Back
               </h2>
               <p className="text-sm text-gray-500">
-                Sign in with your Internet Identity to continue
+                Sign in with Google to continue
               </p>
             </div>
 
@@ -164,14 +164,14 @@ export default function Login() {
               ) : (
                 <>
                   <GraduationCap className="h-5 w-5" />
-                  Sign in with Internet Identity
+                  Sign in with Google
                 </>
               )}
             </Button>
 
             <div className="bg-blue-50 rounded-2xl px-4 py-3">
               <p className="text-xs text-blue-700 leading-relaxed text-center">
-                New to OdiGyan? Sign in with Internet Identity and you will be
+                New to OdiGyan? Sign in with Google and you will be
                 asked to complete your profile automatically.
               </p>
             </div>
