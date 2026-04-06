@@ -110,7 +110,7 @@ export default function CourseDetail() {
     enabled: !!actor,
   });
 
-  // Use studentId-based enrollment check (no Internet Identity needed)
+  // Use studentId-based enrollment check (Firebase profile based)
   const enrolledQuery = useQuery({
     queryKey: ["enrolled-student", studentSession?.studentId ?? ""],
     queryFn: async () => {

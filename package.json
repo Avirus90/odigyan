@@ -1,5 +1,5 @@
 {
-  "name": "@caffeine/template-app",
+  "name": "odigyan-app",
   "type": "module",
   "engines": {
     "node": ">=16.0.0",
@@ -11,7 +11,7 @@
     "typecheck": "pnpm -r --if-present run typecheck",
     "check": "pnpm -r --if-present run check",
     "fix": "pnpm -r --if-present run fix",
-    "dev": "pnpm --filter @caffeine/template-frontend dev",
+    "dev": "pnpm --filter odigyan-frontend dev",
     "deploy:hosting": "firebase deploy --only hosting",
     "deploy:functions": "firebase deploy --only functions"
   },
